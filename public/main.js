@@ -1,4 +1,4 @@
-const { Handlebars } = require("../handlebar.min");
+//const { Handlebars } = require("../handlebar.min");
 
 const context = {
   title: 'Welcome to Musicon',
