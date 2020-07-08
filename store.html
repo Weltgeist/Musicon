@@ -8,6 +8,7 @@
     <link href="public/style.css" rel="stylesheet" type="text/css" >
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js"></script>
     <script id="templateHB" type="text/x-handlebars-template">
+      {{#each instruments}}
       <article class="instrument">
         <img class="image" src="https://s3.amazonaws.com/codecademy-content/courses/learn-handlebars/musicon/electronic-keyboard.png" alt="Electronic Keyboard">
         <section class="details">
@@ -17,6 +18,7 @@
           <p class="sale">On Sale! $1,699.89</p>
         </section>
       </article>
+      {{/each}}
     </script>
   </head>
 
